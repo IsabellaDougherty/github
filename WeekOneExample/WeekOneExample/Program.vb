@@ -8,8 +8,8 @@ Imports System
 
 Module Program
     Sub Main(args As String())
-        'Console.WriteLine()
-        'Console.Write("Everything is going to be okay <3")
+        Console.WriteLine()
+        Console.Write("Everything is going to be okay <3")
         'Beep can have a frequency and a durration
         Console.Beep(392, 500) 'G4'
         Console.Beep(440, 500) 'A4'
