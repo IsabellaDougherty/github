@@ -16,5 +16,6 @@ Module Program
         Console.Beep(349, 750) 'F4'
         Console.Beep(196, 750) 'G3'
         Console.Beep(262, 900) 'C4'
+        Console.WriteLine("This is a third edit so that this can be submitted for the first assignment")
     End Sub
 End Module
