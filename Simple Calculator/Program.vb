@@ -21,6 +21,6 @@ Please use all lowercase and spell your response")
         If action = "product" Then answer = first * second
         If action = "difference" Then answer = first - second
         If action = "quotient" Then answer = first / second
-        Console.WriteLine($"The solution is {answer}")
+        Console.WriteLine($"The solution is {answer}, simplified as {CInt(answer)}")
     End Sub
 End Module
