@@ -6,8 +6,8 @@ Imports System
 'Simple Calculator
 Module Operations
     Sub Main()
-        Dim first As Integer
-        Dim second As Integer
+        Dim first As Decimal
+        Dim second As Decimal
         Dim answer As Decimal
         Dim action As String
         Console.WriteLine("Enter your first number: ")
