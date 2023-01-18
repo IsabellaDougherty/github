@@ -14,5 +14,6 @@ Module Operators
         Console.WriteLine($"Hello {name}! Welcome to this program! I hope you have a wonderful day!
                                     Press Enter to close this window.")
         Console.ReadLine()
+
     End Sub
 End Module
