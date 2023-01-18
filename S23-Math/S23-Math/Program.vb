@@ -54,6 +54,10 @@ Module Operators
         Dim fruit As String
         num = 5
         If (num = 5) Then fruit = "apple"
+        If (num = 4) Then fruit = "banana"
+        If (num = 3) Then fruit = "orange"
+        If (num = 2) Then fruit = "pineapple"
+        If (num = 1) Then fruit = "canteloupe"
         Console.WriteLine("You have selected " & fruit & " which corrolates to the number " & Str(num))
         'Number sign indicates the string will have variables inside it
         Console.WriteLine($"You have {num} {fruit}(s)")
@@ -61,6 +65,7 @@ Module Operators
         Console.WriteLine("What is your favorite Fruit? Hit 'enter' when complete! ")
         fruit = Console.ReadLine() 'Wait for user response here
         Console.WriteLine($"You have entered your favorite fruit as {fruit}!")
+        Console.WriteLine()
     End Sub
 
 End Module
