@@ -14,7 +14,8 @@ Module Operations
         first = Console.ReadLine()
         Console.WriteLine("Enter your second number: ")
         second = Console.ReadLine()
-        Console.WriteLine("Do you want a sum, difference, product, or quotient? ")
+        Console.WriteLine("Do you want a sum, difference, product, or quotient?
+Please use all lowercase and spell your response")
         action = Console.ReadLine()
         If action = "sum" Then answer = first + second
         If action = "product" Then answer = first * second
