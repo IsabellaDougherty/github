@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Say_My_Name</RootNamespace>
+    <RootNamespace>Simple_Calculator</RootNamespace>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
