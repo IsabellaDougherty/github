@@ -51,7 +51,7 @@ Please use all lowercase and spell your response")
         'The simplified as will round the decimal value of a quotient to the nearest whole.
         'Outputs the answer
         If viable Then
-        Console.WriteLine($"The solution is {answer}, simplified as {CInt(answer)}")
+            Console.WriteLine($"The solution is {answer}, simplified as {CInt(answer)}")
         Else
             Console.WriteLine("You have input an invalid action, make sure you only use lower case letters and spell the
 action exactly as shown above")
