@@ -46,4 +46,22 @@ Module Program
             End Select
         End While
     End Sub
+
+    Sub SelectCaseExample()
+        Dim userResponse As String
+        Dim userNumber As Integer
+        Dim message As String
+
+        Console.WriteLine("Enter a character or phrase")
+        userResponse = Console.ReadLine()
+
+        Select Case userResponse
+            Case "Q"
+                Console.WriteLine("Are you sure you want to quit?")
+            Case "X"
+                Console.WriteLine("I found the X!")
+            Case Else
+                Console.WriteLine($"You have entered {userResponse}")
+        End Select
+    End Sub
 End Module
