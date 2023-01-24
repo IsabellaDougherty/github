@@ -1,4 +1,6 @@
-
+Option Explicit On
+Option Infer On
+Option Strict Off
 
 Imports System
 
@@ -42,28 +44,28 @@ Module Program
             userInput = Console.ReadLine()
 
             Select Case userInput
-                Case "Q"
+                    Case "Q" Or "q"
                         quit = True
                         validAnswer = True
                     Case "1"
                     answer = first + second
                     Console.WriteLine($"You have chosen to add the two numbers {first} and {second}")
-                        Console.WriteLine("The answer is " + answer)
+                        Console.WriteLine($"The answer is {answer}")
                         validAnswer = True
                     Case "2"
                     answer = first - second
                     Console.WriteLine($"You have chosen to subtract {first} from {second}")
-                        Console.WriteLine("The answer is " + answer)
+                        Console.WriteLine($"The answer is {answer}")
                         validAnswer = True
                     Case "3"
                     answer = first * second
                     Console.WriteLine($"You have chosen to multiply {first} and {second}")
-                        Console.WriteLine("The answer is " + answer)
+                        Console.WriteLine($"The answer is {answer}")
                         validAnswer = True
                     Case "4"
-                    answer = first / second
-                    Console.WriteLine($"You have chosen to divide {first} from {second}")
-                        Console.WriteLine("The answer is " + answer)
+                        answer = first / second
+                        Console.WriteLine($"You have chosen to divide {first} from {second}")
+                        Console.WriteLine($"The answer is {answer}")
                         validAnswer = True
                     Case Else
                     Console.WriteLine($"You have entered {userInput}.")

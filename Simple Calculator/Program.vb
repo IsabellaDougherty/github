@@ -1,3 +1,8 @@
+Option Explicit On
+Option Compare On
+Option Infer On
+
+
 Imports System
 
 'Isabella Dougherty
