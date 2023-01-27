@@ -21,7 +21,7 @@ Module Program
         Dim second As Integer
         Dim answer As Decimal
 
-        Console.WriteLine("Please enter two numbers. Press 'Q' any time to quit.")
+        Console.WriteLine("Please enter two numbers. Enter 'Q' at any time to quit.")
 
         'Do until the user quits
         Do Until quit
@@ -32,7 +32,7 @@ Module Program
                 Select Case userInput
                 'Compares user's input to the letter Q to check for the user wanting to quit
                     Case "Q"
-                        Console.WriteLine($"You have selected 'Q'.")
+                        Console.WriteLine($"You entered 'Q'.")
                         quit = True
                         isValidNumber = True
                         validAnswer = True
@@ -42,8 +42,9 @@ Module Program
                             first = CDec(first)
                             isValidNumber = True
                             validAnswer = True
+                            Console.WriteLine($"You entered '{first}'")
                         Catch ex As Exception
-                            Console.WriteLine("Please enter a valid number.")
+                            Console.WriteLine("Please enter a whole number.")
                         End Try
                 End Select
             Loop Until isValidNumber Or quit
@@ -62,6 +63,7 @@ Module Program
                         second = userInput
                         second = CDec(second)
                         isValidNumber = True
+                        Console.WriteLine($"You entered '{second}'")
                     Catch ex As Exception
                         Console.WriteLine("Please enter a valid number.")
                     End Try
@@ -75,12 +77,13 @@ Module Program
             End If
 
             While validAnswer = False
-                Console.WriteLine("Plese choose one of the following:
+                Console.WriteLine("Choose one of the following options:
 1 Add
 2 Subtract
 3 Multiply
 4 Divide")
                 userInput = Console.ReadLine()
+                Console.WriteLine($"You entered '{userInput}'")
                 If quit = False Then
                     Select Case userInput
                         'Checks if user wants to quit
@@ -91,26 +94,22 @@ Module Program
                             'Following cases read out the computation the user wants.
                         Case "1"
                             answer = first + second
-                            Console.WriteLine($"You have chosen to add the two numbers {first} and {second}")
-                            Console.WriteLine($"The answer is {answer}")
+                            Console.WriteLine($"{first} + {second} = {answer}")
                             validAnswer = True
                         Case "2"
                             answer = first - second
-                            Console.WriteLine($"You have chosen to subtract {first} from {second}")
-                            Console.WriteLine($"The answer is {answer}")
+                            Console.WriteLine($"{first} - {second} = {answer}")
                             validAnswer = True
                         Case "3"
                             answer = first * second
-                            Console.WriteLine($"You have chosen to multiply {first} and {second}")
-                            Console.WriteLine($"The answer is {answer}")
+                            Console.WriteLine($"{first} * {second} = {answer}")
                             validAnswer = True
                         Case "4"
                             answer = first / second
-                            Console.WriteLine($"You have chosen to divide {first} from {second}")
-                            Console.WriteLine($"The answer is {answer}")
+                            Console.WriteLine($"{first} / {second} = {answer}")
                             validAnswer = True
                         Case Else
-                            Console.WriteLine($"You have entered {userInput}.")
+
                     End Select
                 ElseIf quit = True Then
 
@@ -119,6 +118,6 @@ Module Program
 
         Loop
         Console.Clear()
-        Console.WriteLine("Have a great day!")
+        Console.WriteLine("Have a nice day")
     End Sub
 End Module
