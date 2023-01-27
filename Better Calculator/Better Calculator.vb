@@ -117,7 +117,7 @@ Module Program
             End While
 
         Loop
-        Console.Clear()
+        'Console.Clear()
         Console.WriteLine("Have a nice day")
     End Sub
 End Module
