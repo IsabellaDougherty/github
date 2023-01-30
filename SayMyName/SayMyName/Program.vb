@@ -12,10 +12,8 @@ Module Operators
         Dim name As String
         Console.WriteLine("What is your name?")
         name = Console.ReadLine()
-        If name = "Emily" Then
-            Console.WriteLine("Hello Emily! Welcome to this program! I hope you have a wonderful day!")
-        ElseIf name = "Joe" Then
-            Console.WriteLine("Hello Jow! Welcome to this program! I hope you have a wonderful day!")
+        If name = "Emily" Or name = "Joe" Then
+            Console.WriteLine($"Hello {name}! Welcome to this program! I hope you have a wonderful day!")
         ElseIf name = "Isabella" Then
             Console.WriteLine("My creator has appeared. Please fix me")
         Else
