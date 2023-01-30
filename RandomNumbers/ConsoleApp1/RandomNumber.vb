@@ -2,13 +2,16 @@ Imports System
 
 Module RandomNumber
     Sub Main()
-        Dim number As Integer
-        Dim userInput As Integer
-        While userInput = 1
-            number = RandomNumber()
-            Console.WriteLine(number)
-            userInput = Console.ReadLine()
-        End While
+        Dim _randomNumber As Integer
+        Dim temp As Single
+
+        Randomize() 'generates new randomization seed
+
+        temp = Rnd()
+        temp *= 6
+        _randomNumber = Int(temp)
+        Console.WriteLine(temp)
+        Console.WriteLine(_randomNumber)
     End Sub
 
     Function RandomNumber() As Integer
