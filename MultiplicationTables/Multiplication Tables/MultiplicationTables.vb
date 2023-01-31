@@ -4,6 +4,8 @@
 'Multiplication Tables
 'https://github.com/IsabellaDougherty/github.git
 
+Option Explicit On
+
 Imports System
 
 Module MultiplicationTables
