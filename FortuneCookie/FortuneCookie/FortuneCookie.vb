@@ -12,9 +12,13 @@ Imports System
 
 Module FortuneCookie
     Sub Main()
+        'initialize variable
         Dim random As Integer
+        'randomizes seed
         Randomize()
-            random = CInt(Math.Round(Rnd() * 10))
+        'sets initialized variable to a random integer between 0 and 10
+        random = CInt(Math.Round(Rnd() * 10))
+        'checks the random integer and prints a wisdom based off what the random number is
         Select Case random
             Case 0
                 Console.WriteLine("Good things come to those who wait.")
