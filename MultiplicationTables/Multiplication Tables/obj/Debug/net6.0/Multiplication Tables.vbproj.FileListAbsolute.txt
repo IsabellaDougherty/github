@@ -1,0 +1,15 @@
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\bin\Debug\net6.0\Multiplication Tables.exe
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\bin\Debug\net6.0\Multiplication Tables.deps.json
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\bin\Debug\net6.0\Multiplication Tables.runtimeconfig.json
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\bin\Debug\net6.0\Multiplication Tables.dll
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\bin\Debug\net6.0\Multiplication Tables.pdb
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.vbproj.AssemblyReference.cache
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.AssemblyInfoInputs.cache
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.AssemblyInfo.vb
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.vbproj.CoreCompileInputs.cache
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.dll
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\refint\Multiplication Tables.dll
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.pdb
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\Multiplication Tables.genruntimeconfig.cache
+C:\Users\bella\Downloads\github\MultiplicationTables\Multiplication Tables\obj\Debug\net6.0\ref\Multiplication Tables.dll
