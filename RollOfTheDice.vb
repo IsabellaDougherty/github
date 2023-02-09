@@ -1,3 +1,10 @@
+'Isabella Dougherty
+'RCET0265
+'Spring 2023
+'Roll of the Dice
+'https://github.com/IsabellaDougherty/github/tree/master
+
+
 Imports System
 
 Module RollOfTheDice
